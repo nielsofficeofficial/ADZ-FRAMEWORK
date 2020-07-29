@@ -74,7 +74,7 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
   - Rename sample-page as home and also slug as home hit save<br />
     DONE! Congratulation you can develop your project now!<br />
 
-# USING CLASS/NANMESPACE<br />
+# USING CLASS/NAMESPACE<br />
 <pre>
 # NameSpace/Default
 # Index File
