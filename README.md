@@ -42,7 +42,21 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
  |- footer.php
  |- front-page.php 
 </pre>
-
+ 
+# ADZ FRAMEWORK | Plugins Development tools incuded:<br />
+  - Advanced Custom Fields     Created To: https://www.advancedcustomfields.com/<br />
+  - All in one Favicon         Created To: https://appsumo.com/tools/wordpress/?utm_source=sumo&utm_medium=wp-widget&utm_campaign=all-in-one-favicon<br />
+  - Classic Editor             Created To: https://github.com/WordPress/classic-editor/<br />
+  - CPTA Pagination            Created To: By Naveenkumar C<br />
+  - Debug Bar                  Created To: https://wordpress.org/<br />
+  - GDPR Cookie Consent        Created To: http://cookielawinfo.com/<br />
+  - Query Monitor              Created To: https://querymonitor.com/ <br />
+  - Redirection                Created To: By John Godley<br />
+  - Server IP & Memory Usage Display Created To:http://apasionados.es/<br />
+  - Simple Custom CSS and JS   Created To: https://www.silkypress.com/<br />
+  - What Template File Am I Viewing? Created To: http://www.themightymo.com/<br />
+  - What The File  Created To: http://www.never5.com/<br />
+  
 # HOW TO USE ADZ FRAMEWORK v2.0<br />
   - Download and install to your WordPress project<br />
   - Remove or Rename front-page.php ex. frontpage.php<br />
@@ -51,7 +65,7 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
   - Rename sample-page as home and also slug as home hit save<br />
     DONE! Congratulation you can develop your project now!<br />
 
-NOTE!<br />
+# NOTE!<br />
   - Uninstall and remove development extension tools before official publish of your project.<br />
   - You can use this ADZ framework and feel FREE.<br />
  
