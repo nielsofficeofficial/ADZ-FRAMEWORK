@@ -1,4 +1,4 @@
-# ADZ-FRAMEWORK (Accelerate Development Zone) - A WordPress Framework Cooked by nielsoffice V2.0 Alpha 
+# ADZ-FRAMEWORK (Accelerate Development Zone) - <h2> A WordPress Framework Cooked by nielsoffice V2.0 Alpha </h2>
 <span>Welcome to ADZ Framework (Accelerate Development Zone) - A WordPress Framework with this tools you can develop your project in WordPress very handy just download and install and enjoy</span>
 
 <pre>
@@ -76,7 +76,7 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
 
 # USING CLASS/NAMESPACE<br />
 <pre>
-# Default Instatiate Class/NameSpace/
+# Default instantiate Class/NameSpace/
 
 # Index File
 - $adzFramework = new \adz-project\ADZFRAMEWORK\YourClassName();
