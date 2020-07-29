@@ -87,7 +87,9 @@ namespace adz-project\ADZFRAMEWORK;
 class YouClass {
 function __construct() 
  {
-		
+    // you code goes here..
+    ex. parent::html // Extend class for crownPHPEXTEND noHTML/Design/OptimizedCode
+    ex. parent::form // Extend class for crownPHPEXTEND formBuilder
  }
 }
 
