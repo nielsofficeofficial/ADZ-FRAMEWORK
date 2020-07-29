@@ -107,6 +107,7 @@ function __construct()
 
 # W/ Sub w/ sub Folder 2
 - $adzFramework = new \adz-project\ADZFRAMEWORK\SubDirectoryName\SubDirectoryName2\YourClassName();
+
 # Class File	
 namespace adz-project\ADZFRAMEWORK\SubDirectoryName\SubDirectoryName2;
 class YouClass {
