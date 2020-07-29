@@ -4,7 +4,7 @@
 <pre>
 ADZ-FRAMWORK FILE STRUCTURE v2.0
  |- css
-   |- front-page.css // remove after installing theme
+   |- front-page.css 
    |- settings.css   // relocate piece of code to style.css when have update 
  |- img
  |- inc
@@ -40,7 +40,7 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
  |- 404
  |- comments.php
  |- footer.php
- |- front-page.php // remove after installing theme
+ |- front-page.php 
 </pre>
 
 # HOW TO USE ADZ FRAMEWORK v2.0<br />
