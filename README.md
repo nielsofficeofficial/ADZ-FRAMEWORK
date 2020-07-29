@@ -75,6 +75,7 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
     DONE! Congratulation you can develop your project now!<br />
 
 <h3> USING CLASS/NAMESPACE</h3><br />
+
 <pre>
 # Default instantiate Class/NameSpace/
 
@@ -85,6 +86,7 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
 # W/ Sub w/ sub Folder 2
 - $adzFramework = new \adz-project\ADZFRAMEWORK\SubDirectoryName\SubDirectoryName2\YourClassName();
 </pre>
+
 <h4> NOTE! </h4><br />
   - Uninstall and remove development extension tools before official publish of your project.<br />
   - You can use this ADZ framework and feel FREE.<br />
