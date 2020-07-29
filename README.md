@@ -77,7 +77,7 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
 # USING CLASS/NANMESPACE<br />
 <pre>
 # NameSpace/Default
- 	- $adzFramework = new  \adz-project\ADZFRAMEWORK\User();
+- $adzFramework = new  \adz-project\ADZFRAMEWORK\YourClassName();
 </pre>
 # NOTE!<br />
   - Uninstall and remove development extension tools before official publish of your project.<br />
