@@ -87,7 +87,7 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
 - $adzFramework = new \adz-project\ADZFRAMEWORK\SubDirectoryName\SubDirectoryName2\YourClassName();
 </pre>
 
-<h4> NOTE! </h4><br />
+<h4> NOTE! </h4>
   - Uninstall and remove development extension tools before official publish of your project.<br />
   - You can use this ADZ framework and feel FREE.<br />
  
