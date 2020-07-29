@@ -77,7 +77,12 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
 # USING CLASS/NANMESPACE<br />
 <pre>
 # NameSpace/Default
-- $adzFramework = new  \adz-project\ADZFRAMEWORK\YourClassName();
+# Index File
+- $adzFramework = new \adz-project\ADZFRAMEWORK\YourClassName();
+# W/ Sub Folder
+- $adzFramework = new \adz-project\ADZFRAMEWORK\SubDirectoryName\YourClassName();
+# W/ Sub w/ sub Folder 2
+- $adzFramework = new \adz-project\ADZFRAMEWORK\SubDirectoryName\SubDirectoryName2\YourClassName();
 </pre>
 # NOTE!<br />
   - Uninstall and remove development extension tools before official publish of your project.<br />
