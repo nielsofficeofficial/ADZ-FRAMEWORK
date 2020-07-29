@@ -37,7 +37,7 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
        |- adz-framework-sidebar.php
      |- framework-single
        |- adz-framework-single.php           
-   |- e-wpcore-register.php // Custom function/Class/Loader
+   |- e-wpcore-register.php // Custom function/Class/PHPMethod
  |- 404
  |- comments.php
  |- footer.php
