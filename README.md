@@ -76,7 +76,8 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
 
 # USING CLASS/NAMESPACE<br />
 <pre>
-# NameSpace/Default
+# Default Instatiate Class/NameSpace/
+
 # Index File
 - $adzFramework = new \adz-project\ADZFRAMEWORK\YourClassName();
 # W/ Sub Folder
