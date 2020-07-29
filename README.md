@@ -93,6 +93,10 @@ function __construct()
  }
 }
 
+</pre>
+
+<pre>
+
 # W/ Sub Folder
 - $adzFramework = new \adz-project\ADZFRAMEWORK\SubDirectoryName\YourClassName();
 
@@ -104,6 +108,10 @@ function __construct()
  
  }
 }
+
+</pre>
+
+<pre>
 
 # W/ Sub w/ sub Folder 2
 - $adzFramework = new \adz-project\ADZFRAMEWORK\SubDirectoryName\SubDirectoryName2\YourClassName();
