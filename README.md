@@ -3,23 +3,24 @@
 
 <pre>
 ADZ-FRAMWORK FILE STRUCTURE v2.0
-|- css
-    |- front-page.css // remove after installing theme
-    |- settings.css   // relocate piece of code to style.css when have update 
+ |- css
+   |- front-page.css // remove after installing theme
+   |- settings.css   // relocate piece of code to style.css when have update 
  |- img
  |- inc
-    |- class-tgm-plugin-activation.php
-    |- custom-header.php
-    |- woocommerce.php
+   |- class-tgm-plugin-activation.php
+   |- custom-header.php
+   |- woocommerce.php
  |- js
-    |- adz-extend.js   // Goes your custom script
-    |- jquery.preloadinator.min.js
+   |- adz-extend.js   // Goes your custom script
+   |- jquery.preloadinator.min.js
  |- languages
  |- layouts
  |- templates
  |- woocommerce
  |- wp-data
    |- adz-framework
+     |- adz-framework.php
      |- framework-footer
        |- adz-framework-footer.php
      |- framework-header
