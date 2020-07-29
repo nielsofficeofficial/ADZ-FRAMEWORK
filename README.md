@@ -19,7 +19,19 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
  |- templates
  |- woocommerce
  |- wp-data
-    |- 
+   |- adz-framework
+     |- framework-footer
+       |- adz-framework-footer.php
+     |- framework-header
+       |- adz-framework-header.php
+     |- framework-page
+       |- adz-framework-page.php
+     |- framework-search
+       |- adz-framework-search.php
+     |- framework-sidebar
+       |- adz-framework-sidebar.php
+     |- framework-single
+       |- adz-framework-single.php           
  |- 404
  |- comments.php
  |- footer.php
