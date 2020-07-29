@@ -74,6 +74,11 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
   - Rename sample-page as home and also slug as home hit save<br />
     DONE! Congratulation you can develop your project now!<br />
 
+# USING CLASS/NANMESPACE<br />
+<pre>
+# NameSpace/Default
+ 	- $adzFramework = new  \adz-project\ADZFRAMEWORK\User();
+</pre>
 # NOTE!<br />
   - Uninstall and remove development extension tools before official publish of your project.<br />
   - You can use this ADZ framework and feel FREE.<br />
