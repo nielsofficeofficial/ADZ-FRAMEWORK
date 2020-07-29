@@ -81,10 +81,39 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
 
 # Index File
 - $adzFramework = new \adz-project\ADZFRAMEWORK\YourClassName();
+
+# Class File	
+namespace adz-project\ADZFRAMEWORK;
+class YouClass {
+function __construct() 
+  {
+		
+  }
+	}
+
 # W/ Sub Folder
 - $adzFramework = new \adz-project\ADZFRAMEWORK\SubDirectoryName\YourClassName();
+
+# Class File	
+namespace adz-project\ADZFRAMEWORK\SubDirectoryName;
+class YouClass {
+function __construct() 
+ {
+ 
+ }
+}
+
 # W/ Sub w/ sub Folder 2
 - $adzFramework = new \adz-project\ADZFRAMEWORK\SubDirectoryName\SubDirectoryName2\YourClassName();
+# Class File	
+namespace adz-project\ADZFRAMEWORK\SubDirectoryName\SubDirectoryName2;
+class YouClass {
+function __construct() 
+ {
+ 
+ }
+}
+
 </pre>
 
 <h4> NOTE! </h4>
