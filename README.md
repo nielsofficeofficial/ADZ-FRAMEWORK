@@ -42,6 +42,14 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
  |- comments.php
  |- footer.php
  |- front-page.php 
+ |- functions.php
+ |- header.php
+ |- index.php
+ |- page.php
+ |- search.php
+ |- single.php
+ |- style.css
+ |- woocommerce.css
 </pre>
  
 # ADZ FRAMEWORK | Plugins Development tools incuded:<br />
