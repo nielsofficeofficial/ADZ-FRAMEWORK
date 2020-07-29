@@ -86,10 +86,10 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
 namespace adz-project\ADZFRAMEWORK;
 class YouClass {
 function __construct() 
-  {
+ {
 		
-  }
-	}
+ }
+}
 
 # W/ Sub Folder
 - $adzFramework = new \adz-project\ADZFRAMEWORK\SubDirectoryName\YourClassName();
