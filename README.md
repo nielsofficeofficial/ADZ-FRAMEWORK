@@ -19,6 +19,9 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
  |- templates
  |- woocommerce
  |- wp-data
+   |- processor      // Class and Query
+   |- view           // HTML client side 
+   |- template-parts // Pages and Other WordPress Contents
    |- adz-framework
      |- adz-framework.php
      |- framework-footer
@@ -33,6 +36,8 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
        |- adz-framework-sidebar.php
      |- framework-single
        |- adz-framework-single.php           
+   |- e-wpcore-register.php // Custom function/Class/Loader
+   
  |- 404
  |- comments.php
  |- footer.php
