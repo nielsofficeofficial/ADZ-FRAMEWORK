@@ -1,5 +1,5 @@
-# ADZ-FRAMEWORK (Accelerate Development Zone) - <h2> A WordPress Framework Cooked by nielsoffice V2.0 Alpha </h2>
-<span>Welcome to ADZ Framework (Accelerate Development Zone) - A WordPress Framework with this tools you can develop your project in WordPress very handy just download and install and enjoy</span>
+<h2> ADZ-FRAMEWORK (Accelerate Development Zone) - A WordPress Framework Cooked by nielsoffice V2.0 Alpha </h2>
+<span>Welcome to ADZ Framework (Accelerate Development Zone) - A WordPress Framework with this tools you can develop your project in WordPress very handy just download and install and enjoy!</span>
 
 <pre>
 ADZ-FRAMWORK FILE STRUCTURE v2.0
@@ -52,7 +52,7 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
  |- woocommerce.css
 </pre>
  
-# ADZ FRAMEWORK | Plugins Development tools incuded:<br />
+<h3> ADZ FRAMEWORK | Plugins Development tools incuded: </h3><br />
   - Debug Bar                  Created To: https://wordpress.org/<br />  
   - What Template File Am I Viewing? Created To: http://www.themightymo.com/<br />
   - What The File  Created To: http://www.never5.com/<br />
@@ -66,7 +66,7 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
   - GDPR Cookie Consent        Created To: http://cookielawinfo.com/<br /> 
   - All in one Favicon         Created To: https://appsumo.com/tools/wordpress/?utm_source=sumo&utm_medium=wp-widget&utm_campaign=all-in-one-favicon<br />
  
-# HOW TO USE ADZ FRAMEWORK v2.0<br />
+<h3> HOW TO USE ADZ FRAMEWORK v2.0 </h3><br />
   - Download and install to your WordPress project<br />
   - Remove or Rename front-page.php ex. frontpage.php<br />
   - Remove style css front-page.css<br />
@@ -74,7 +74,7 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
   - Rename sample-page as home and also slug as home hit save<br />
     DONE! Congratulation you can develop your project now!<br />
 
-# USING CLASS/NAMESPACE<br />
+<h3> USING CLASS/NAMESPACE</h3><br />
 <pre>
 # Default instantiate Class/NameSpace/
 
@@ -85,7 +85,7 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
 # W/ Sub w/ sub Folder 2
 - $adzFramework = new \adz-project\ADZFRAMEWORK\SubDirectoryName\SubDirectoryName2\YourClassName();
 </pre>
-# NOTE!<br />
+<h4> NOTE! </h4><br />
   - Uninstall and remove development extension tools before official publish of your project.<br />
   - You can use this ADZ framework and feel FREE.<br />
  
