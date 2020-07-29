@@ -56,7 +56,7 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
  |- woocommerce.css
 </pre>
  
-<h3> ADZ FRAMEWORK | Plugins Development tools incuded: </h3>
+<h3> ADZ FRAMEWORK | Plugins Development tools included: </h3>
   - Debug Bar                  Created To: https://wordpress.org/<br />  
   - What Template File Am I Viewing? Created To: http://www.themightymo.com/<br />
   - What The File  Created To: http://www.never5.com/<br />
