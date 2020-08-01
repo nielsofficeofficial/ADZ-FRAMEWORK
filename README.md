@@ -24,10 +24,11 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0
    |- template-parts // Pages and Other WordPress Contents
    |- e-wpcore       // Archive file (ShortCode)
    |- Saver          // Development/TestingMode
-     |- processor    // This
-     |- e-wpcore     // is development
-     |- view         // version 
-   |- adz-framework
+     |- processor      // This
+     |- e-wpcore       // is development
+     |- view           // version 
+     |- config.php     // Config file activate saver 
+   |- adz-framework  // Pages Files
      |- adz-framework.php
      |- framework-footer
        |- adz-framework-footer.php
