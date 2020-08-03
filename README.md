@@ -132,8 +132,10 @@ function __construct()
 
 </pre>
 
-<h3>Working with crownPHPEXTEND<br />
-   // Do this every page you need to use the library</h3>
+<h3>Usage: Working with crownPHPEXTEND<br />
+   // Do this every WordPress Register page you need to use the library<br />
+   // For Custom page: require_once 'crownPHPEXTED.v.1.0.php'; </h3>
+     
 <pre>
  // Instantiate Class
  $_Template       = NEW  \adzProject\ADZFRAMEWORK\Template\Template();
@@ -163,6 +165,75 @@ function __construct()
  $adzProject = NEW YourProjectName();
 </pre>
 
+<pre>
+<h3>For Static Class direct usage: </h3>
+# require_once 'crownPHPEXTED.v.1.0.php';
+# Do Class static
+
+#Attributes 
+
+function my_htmattr() {
+    
+    return $sets = [
+      
+      $attr_name = ['1','2'],
+      $attr_val  = ['_niel_','_fernandez_'],
+   
+    ];
+ }
+</pre>
+
+<pre>
+# Class Static Method 
+
+// display via echo/print
+echo  html::H1("Sample_return ",  my_htmattr() ,'id_ECHO_TO_RETURN_ASSOC','','label_ECHO_h1','FUNC_ASSOC'); // will show
+
+      html::H1("Sample_return ",  my_htmattr() ,'id_ECHO_TO_RETURN_ASSOC','','label_ECHO_hIDE','FUNC_ASSOC'); // will NOT SHOW
+
+      // NULL use outside of function 
+      html::H1("Sample_echo ",    my_htmattr(),'id_ECHO_DEFAULT','ADD_CLASS','NO_CLASS', NULL);  // will show 
+
+html::_addLINE();
+
+// display via echo/print
+echo  html::H1(html::STRING("Sample_return_XYZ", 'FUNC_ASSOC'), my_htmattr(),'id_ECHO_TO_RETURN_ASSOC','ASSOC_SHOW','','FUNC_ASSOC'); // will show
+
+      html::H1("Sample_return ", my_htmattr(),'id_ECHO_TO_RETURN_ASSOC','ASSOC_SHOW','','FUNC_ASSOC'); // will NOT SHOW
+
+      // NULL use outside of function 
+      html::H1("Sample_echo ", my_htmattr(),'id_ECHO_DEFAULT','NOT ASSOC','', NULL);  // will show 
+
+html::_addLINE();
+
+// display via echo/print
+echo  html::H1("Sample_return ", my_htmattr(),'id_ECHO_TO_RETURN_ASSOC','XYZ','','FUNC_ASSOC'); // will show
+
+      html::H1("Sample_return ", my_htmattr(),'id_ECHO_TO_RETURN_ASSOC','XYZ','','FUNC_ASSOC'); // will NOT SHOW
+
+      // NULL use outside of function 
+      html::H1("Sample_echo ", my_htmattr(),'id_ECHO_DEFAULT','','', NULL);  // will show 
+
+html::_addLINE();
+
+// display via echo/print
+echo  html::H1("Sample_return ", my_htmattr(),'','','','FUNC_ASSOC'); // will show
+
+      html::H1("Sample_return ", my_htmattr(),'','','','FUNC_ASSOC'); // will NOT SHOW
+
+      // NULL use outside of function 
+      html::H1("Sample_echo ", my_htmattr(),'','','', NULL);  // will show 
+
+html::_addLINE();
+
+// display via echo/print
+echo  html::H1("", NULL,'','','','FUNC_ASSOC'); // will show
+
+      html::H1("", NULL,'','','','FUNC_ASSOC'); // will NOT SHOW
+
+      // NULL use outside of function 
+      html::H1("", NULL,'','','', NULL);  // will show 
+</pre>
 
 
 <h4> NOTE! </h4>
