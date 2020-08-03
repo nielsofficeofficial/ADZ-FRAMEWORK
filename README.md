@@ -132,6 +132,37 @@ function __construct()
 
 </pre>
 
+<h3>Working with crownPHPEXTEND : Do this every page you need to use the library</h3>
+ // Instantiate Class
+ $_Template       = NEW  \adzProject\ADZFRAMEWORK\Template\Template();
+ // Or
+ USE adzProject\ADZFRAMEWORK\Template\Template AS YourProjectName;
+ 
+ $adzProject = NEW YourProjectName();<br />
+</pre>
+
+<pre>
+ # Usage of Class 
+ // Instantiate Class
+ $_Html           = NEW  \adzProject\ADZFRAMEWORK\Html\Html()
+ // Or
+ USE adzProject\ADZFRAMEWORK\Html\Html AS  YourProjectName;
+ 
+ $adzProject = NEW YourProjectName();
+</pre>
+
+<pre>
+ # Usage of Class 
+ // Instantiate Class
+ $_Form           = NEW  \adzProject\ADZFRAMEWORK\Form\Form();
+ // or
+ USE adzProject\ADZFRAMEWORK\Form\Form AS  YourProjectName
+ 
+ $adzProject = NEW YourProjectName();
+</pre>
+
+
+
 <h4> NOTE! </h4>
   - Uninstall and remove development extension tools before official publish of your project.<br />
   - You can use this ADZ framework and feel FREE.<br />
