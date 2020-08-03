@@ -58,18 +58,18 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0 [ Support PHPv7.0+ not work for PHP5.6 older ]
 </pre>
  
 <h3> ADZ FRAMEWORK | Plugins Development tools included: </h3>
-  - Debug Bar                  Created To: https://wordpress.org/<br />  
-  - What Template File Am I Viewing? Created To: http://www.themightymo.com/<br />
+  - Debug Bar                  Credit To: https://wordpress.org/<br />  
+  - What Template File Am I Viewing? Credit To: http://www.themightymo.com/<br />
   - What The File  Created To: http://www.never5.com/<br />
-  - Query Monitor              Created To: https://querymonitor.com/ <br />
-  - Redirection                Created To: By John Godley<br />
-  - CPTA Pagination            Created To: By Naveenkumar C<br />  
-  - Server IP & Memory Usage Display Created To:http://apasionados.es/<br />  
-  - Classic Editor             Created To: https://github.com/WordPress/classic-editor/<br />    
-  - Advanced Custom Fields     Created To: https://www.advancedcustomfields.com/<br />
-  - Simple Custom CSS and JS   Created To: https://www.silkypress.com/<br />
-  - GDPR Cookie Consent        Created To: http://cookielawinfo.com/<br /> 
-  - All in one Favicon         Created To: https://appsumo.com/tools/wordpress/?utm_source=sumo&utm_medium=wp-widget&utm_campaign=all-in-one-favicon<br />
+  - Query Monitor              Credit To: https://querymonitor.com/ <br />
+  - Redirection                Credit To: By John Godley<br />
+  - CPTA Pagination            Credit To: By Naveenkumar C<br />  
+  - Server IP & Memory Usage Display Credit To:http://apasionados.es/<br />  
+  - Classic Editor             Credit To: https://github.com/WordPress/classic-editor/<br />    
+  - Advanced Custom Fields     Credit To: https://www.advancedcustomfields.com/<br />
+  - Simple Custom CSS and JS   Credit To: https://www.silkypress.com/<br />
+  - GDPR Cookie Consent        Credit To: http://cookielawinfo.com/<br /> 
+  - All in one Favicon         Credit To: https://appsumo.com/tools/wordpress/?utm_source=sumo&utm_medium=wp-widget&utm_campaign=all-in-one-favicon<br />
  
 <h3> HOW TO USE ADZ FRAMEWORK v2.0 </h3>
   - Download and install to your WordPress project<br />
