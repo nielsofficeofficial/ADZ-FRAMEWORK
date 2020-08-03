@@ -134,7 +134,7 @@ function __construct()
 
 #Usage: Working with crownPHPEXTEND<br />
 #Do this every WordPress Register page you need to use the library<br />
-#crownPHP noHTML/Design/OptimizedCode
+#crownPHP noHTML/Design/OptimizedCode<br />
 #For Custom page: require_once 'crownPHPEXTED.v.1.0.php';<br />
 
 <pre>
@@ -220,10 +220,10 @@ echo  html::DATALIST("Sample_return",my_htmattr(),'','','','FUNC_ASSOC'); // wil
 
 <pre>
 // display via echo/print
-echo  html::DATALIST("", NULL,'','','','FUNC_ASSOC'); // will show
-      html::DATALIST("", NULL,'','','','FUNC_ASSOC'); // will NOT SHOW
+echo  html::DATALIST("",NULL,'','','','FUNC_ASSOC'); // will show
+      html::DATALIST("",NULL,'','','','FUNC_ASSOC'); // will NOT SHOW
       // NULL use outside of function 
-      html::DATALIST("", NULL,'','','', NULL);  // will show 
+      html::DATALIST("",NULL,'','','', NULL);  // will show 
 </pre>
 
 
