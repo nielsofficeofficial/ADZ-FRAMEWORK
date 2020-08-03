@@ -134,8 +134,9 @@ function __construct()
 
 #Usage: Working with crownPHPEXTEND<br />
 #Do this every WordPress Register page you need to use the library<br />
+#crownPHP noHTML/Design/OptimizedCode
 #For Custom page: require_once 'crownPHPEXTED.v.1.0.php';<br />
-     
+
 <pre>
  // Instantiate Class
  $_Template       = NEW  \adzProject\ADZFRAMEWORK\Template\Template();
