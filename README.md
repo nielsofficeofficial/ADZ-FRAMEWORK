@@ -188,10 +188,10 @@ function my_htmattr() {
 # Class Static Method 
 
 // display via echo/print
-echo  html::DATALIST("Sample_return ",  my_htmattr() ,'id_ECHO_TO_RETURN_ASSOC','','label_ECHO_h1','FUNC_ASSOC'); // will show
-      html::DATALIST("Sample_return ",  my_htmattr() ,'id_ECHO_TO_RETURN_ASSOC','','label_ECHO_hIDE','FUNC_ASSOC'); // will NOT SHOW
+echo  html::DATALIST("Sample_return",my_htmattr(),'id_ECHO_TO_RETURN_ASSOC','','label_ECHO_h1','FUNC_ASSOC'); // will show
+      html::DATALIST("Sample_return",my_htmattr(),'id_ECHO_TO_RETURN_ASSOC','','label_ECHO_hIDE','FUNC_ASSOC'); // will NOT SHOW
       // NULL use outside of function 
-      html::DATALIST("Sample_echo ",    my_htmattr(),'id_ECHO_DEFAULT','ADD_CLASS','NO_CLASS', NULL);  // will show 
+      html::DATALIST("Sample_echo",my_htmattr(),'id_ECHO_DEFAULT','ADD_CLASS','NO_CLASS', NULL);  // will show 
 </pre>
 
 <pre>
@@ -199,23 +199,23 @@ echo  html::DATALIST("Sample_return ",  my_htmattr() ,'id_ECHO_TO_RETURN_ASSOC',
 echo  html::DATALIST(html::STRING("Sample_return_XYZ", 'FUNC_ASSOC'), my_htmattr(),'id_ECHO_TO_RETURN_ASSOC','ASSOC_SHOW','','FUNC_ASSOC'); // will show
       html::DATALIST("Sample_return ", my_htmattr(),'id_ECHO_TO_RETURN_ASSOC','ASSOC_SHOW','','FUNC_ASSOC'); // will NOT SHOW
       // NULL use outside of function 
-      html::DATALIST("Sample_echo ", my_htmattr(),'id_ECHO_DEFAULT','NOT ASSOC','', NULL);  // will show 
+      html::DATALIST("Sample_echo ", my_htmattr(),'id_ECHO_DEFAULT','NOT ASSOC','', NULL); // will show 
 </pre>
 
 <pre>
 // display via echo/print
-echo  html::DATALIST("Sample_return ", my_htmattr(),'id_ECHO_TO_RETURN_ASSOC','XYZ','','FUNC_ASSOC'); // will show
-      html::DATALIST("Sample_return ", my_htmattr(),'id_ECHO_TO_RETURN_ASSOC','XYZ','','FUNC_ASSOC'); // will NOT SHOW
+echo  html::DATALIST("Sample_return",my_htmattr(),'id_ECHO_TO_RETURN_ASSOC','XYZ','','FUNC_ASSOC'); // will show
+      html::DATALIST("Sample_return",my_htmattr(),'id_ECHO_TO_RETURN_ASSOC','XYZ','','FUNC_ASSOC'); // will NOT SHOW
       // NULL use outside of function 
-      html::DATALIST("Sample_echo ", my_htmattr(),'id_ECHO_DEFAULT','','', NULL);  // will show 
+      html::DATALIST("Sample_echo",my_htmattr(),'id_ECHO_DEFAULT','','', NULL);  // will show 
 </pre>
 
 <pre>
 // display via echo/print
-echo  html::DATALIST("Sample_return ", my_htmattr(),'','','','FUNC_ASSOC'); // will show
-      html::DATALIST("Sample_return ", my_htmattr(),'','','','FUNC_ASSOC'); // will NOT SHOW
+echo  html::DATALIST("Sample_return",my_htmattr(),'','','','FUNC_ASSOC'); // will show
+      html::DATALIST("Sample_return",my_htmattr(),'','','','FUNC_ASSOC'); // will NOT SHOW
       // NULL use outside of function 
-      html::DATALIST("Sample_echo ", my_htmattr(),'','','', NULL);  // will show 
+      html::DATALIST("Sample_echo",my_htmattr(),'','','', NULL); // will show 
 </pre>
 
 <pre>
