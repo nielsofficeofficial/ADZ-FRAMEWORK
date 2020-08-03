@@ -2,7 +2,7 @@
 <span>Welcome to ADZ Framework (Accelerate Development Zone) - A WordPress Framework with this tools you can develop your project in WordPress very handy just download and install and enjoy!</span>
 
 <pre>
-ADZ-FRAMWORK FILE STRUCTURE v2.0
+ADZ-FRAMWORK FILE STRUCTURE v2.0 [ Support PHPv7.0+ not work for PHP5.6 older ]
  |- css
    |- front-page.css 
    |- settings.css   // relocate piece of code to style.css when have update 
