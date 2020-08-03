@@ -169,7 +169,7 @@ function __construct()
 <pre>
 <h3>For Static Class direct usage: </h3>
 # require_once 'crownPHPEXTED.v.1.0.php';
-# Do Class static
+# Do Class static Method
 
 #Attributes 
 
