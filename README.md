@@ -201,7 +201,7 @@ echo  html::H1(html::STRING("Sample_return_XYZ", 'FUNC_ASSOC'), my_htmattr(),'id
       html::H1("Sample_echo ", my_htmattr(),'id_ECHO_DEFAULT','NOT ASSOC','', NULL);  // will show 
 </pre>
 
-</pre>
+<pre>
 // display via echo/print
 echo  html::H1("Sample_return ", my_htmattr(),'id_ECHO_TO_RETURN_ASSOC','XYZ','','FUNC_ASSOC'); // will show
       html::H1("Sample_return ", my_htmattr(),'id_ECHO_TO_RETURN_ASSOC','XYZ','','FUNC_ASSOC'); // will NOT SHOW
@@ -209,7 +209,7 @@ echo  html::H1("Sample_return ", my_htmattr(),'id_ECHO_TO_RETURN_ASSOC','XYZ',''
       html::H1("Sample_echo ", my_htmattr(),'id_ECHO_DEFAULT','','', NULL);  // will show 
 </pre>
 
-</pre>
+<pre>
 // display via echo/print
 echo  html::H1("Sample_return ", my_htmattr(),'','','','FUNC_ASSOC'); // will show
       html::H1("Sample_return ", my_htmattr(),'','','','FUNC_ASSOC'); // will NOT SHOW
