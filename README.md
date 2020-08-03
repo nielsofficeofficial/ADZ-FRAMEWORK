@@ -132,7 +132,9 @@ function __construct()
 
 </pre>
 
-<h3>Working with crownPHPEXTEND : Do this every page you need to use the library</h3>
+<h3>Working with crownPHPEXTEND<br />
+   // Do this every page you need to use the library</h3>
+<pre>
  // Instantiate Class
  $_Template       = NEW  \adzProject\ADZFRAMEWORK\Template\Template();
  // Or
