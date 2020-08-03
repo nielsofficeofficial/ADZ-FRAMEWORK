@@ -60,7 +60,7 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0 [ Support PHPv7.0+ not work for PHP5.6 older ]
 <h3> ADZ FRAMEWORK | Plugins Development tools included: </h3>
   - Debug Bar                  Credit To: https://wordpress.org/<br />  
   - What Template File Am I Viewing? Credit To: http://www.themightymo.com/<br />
-  - What The File  Created To: http://www.never5.com/<br />
+  - What The File  Credit To: http://www.never5.com/<br />
   - Query Monitor              Credit To: https://querymonitor.com/ <br />
   - Redirection                Credit To: By John Godley<br />
   - CPTA Pagination            Credit To: By Naveenkumar C<br />  
