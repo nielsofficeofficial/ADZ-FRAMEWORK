@@ -217,7 +217,7 @@ echo  html::H1("Sample_return ", my_htmattr(),'','','','FUNC_ASSOC'); // will sh
       html::H1("Sample_echo ", my_htmattr(),'','','', NULL);  // will show 
 </pre>
 
-</pre>
+<pre>
 // display via echo/print
 echo  html::H1("", NULL,'','','','FUNC_ASSOC'); // will show
       html::H1("", NULL,'','','','FUNC_ASSOC'); // will NOT SHOW
