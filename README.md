@@ -135,7 +135,7 @@ function __construct()
 #Usage: Working with crownPHPEXTEND<br />
 #Do this every WordPress Register page you need to use the library<br />
 #crownPHP noHTML/Design/OptimizedCode<br />
-#For Custom page: require_once 'crownPHPEXTED.v.1.0.php';<br />
+#For Custom page: require_once 'crownPHPEXTEND/crownPHPEXTEND.v.1.0.php';<br />
 
 <pre>
  // Instantiate Class
