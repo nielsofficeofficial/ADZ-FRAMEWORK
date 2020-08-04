@@ -18,6 +18,7 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0 [ Support PHPv7.0+ not work for PHP5.6 older ]
  |- layouts
  |- templates
  |- woocommerce
+ |- Library
  |- wp-data
    |- processor      // Class and Query
    |- view           // HTML client side 
