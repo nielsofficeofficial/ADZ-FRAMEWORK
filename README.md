@@ -5,25 +5,27 @@
 ADZ-FRAMWORK FILE STRUCTURE v2.0 [ Support PHPv7.0+ not work for PHP5.6 older ]
  |- css
    |- front-page.css 
-   |- settings.css   // relocate piece of code to style.css when have update 
+   |- settings.css     => relocate piece of code to style.css when have update 
  |- img
  |- inc
    |- class-tgm-plugin-activation.php
    |- custom-header.php
    |- woocommerce.php
  |- js
-   |- adz-extend.js   // Goes your custom script
+   |- adz-extend.js     => Goes your custom script
    |- jquery.preloadinator.min.js
  |- languages
  |- layouts
  |- templates
  |- woocommerce
- |- Library          // PHP Library goes here 
+ |- Library              => PHP Library goes here 
  |- wp-data
-   |- processor      // Class and Query
-   |- view           // HTML client side 
-   |- template-parts // Pages and Other WordPress Contents
-   |- e-wpcore       // Archive file (ShortCode)
+   |- processor          => Class and Query
+       |- root           => Folder fo all ParentClass 
+       - ChildClass.php  => All ChildClass goes here..
+   |- view               => HTML client side 
+   |- template-parts     => Pages and Other WordPress Contents
+   |- e-wpcore           => Archive file (ShortCode)
    |- saver                 => Development mode project folder 
       |- root               => Project folder all ParentClass functionality methods which set to Protected, Private and Final
        - childClass_1.php   => Project File all Class child or inheritance method which set to Public called handler carrying burden between root and executor/view files.
