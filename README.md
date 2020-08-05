@@ -24,11 +24,10 @@ ADZ-FRAMWORK FILE STRUCTURE v2.0 [ Support PHPv7.0+ not work for PHP5.6 older ]
    |- view           // HTML client side 
    |- template-parts // Pages and Other WordPress Contents
    |- e-wpcore       // Archive file (ShortCode)
-   |- Saver          // Development/TestingMode
-     |- processor      // This
-     |- e-wpcore       // is development
-     |- view           // version 
-     |- config.php     // Config file activate saver 
+   |- saver                 => Development mode project folder 
+      |- root               => Project folder all ParentClass Functionality Methods which set to Protected, Private and Final
+       - childClass_1.php   => Project File all Class Child or Inheritance Method which set to Public called Handler carrying burden between root and executor/view files.
+      |- view/executor      => Project Folder all page/files that contains data for client side specially HTML    
    |- adz-framework  // Pages Files
      |- adz-framework.php
      |- framework-footer
